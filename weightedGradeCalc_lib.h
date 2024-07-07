@@ -6,6 +6,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include <ctype.h> 
 
 //constants
 
@@ -23,5 +24,9 @@ typedef struct
 part;
 
 void display(part *component, int size);
+
+void prompt(part *component, int size);
+
+void to_lower(char *str);
 
 #endif
